@@ -5,6 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formlar</title>
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 400px;
+    background-color: #f0f8ff; /* Alice Blue */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    margin: 15px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #7ec8e3; /* Sky Blue */
+    border-radius: 5px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+    </style>
 </head>
 
 <body>
@@ -38,16 +104,16 @@
 
         <p>
             Cinsiyetiniz: <br>
-            Erkek <input type="radio" name="cinsiyet">
-            Kadın <input type="radio" name="cinsiyet">
-            Belirtmek İstemiyorum <input type="radio" name="cinsiyet">
+            Erkek <input type="radio" name="cinsiyet"><br>
+            Kadın <input type="radio" name="cinsiyet"><br>
+            Belirtmek İstemiyorum <input type="radio" name="cinsiyet"><br>
         </p>
 
         <p>
             Hobileriniz : <br>
-            Oyun Oynamak<input type="checkbox" name="hobi">
-            Futbol Maçı İzlemek<input type="checkbox" name="hobi">
-            Kod Yazmak<input type="checkbox" name="hobi">
+            Oyun Oynamak<input type="checkbox" name="hobi"><br>
+            Futbol Maçı İzlemek<input type="checkbox" name="hobi"><br>
+            Kod Yazmak<input type="checkbox" name="hobi"><br>
         </p>
 
         <p>
